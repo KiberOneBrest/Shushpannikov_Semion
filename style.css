@@ -1,0 +1,215 @@
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: blue;
+}
+
+.msm {
+    width: 100%
+}
+
+li {
+    list-style-type: none;
+    border: 3px dotted rgb(201, 72, 72);
+    width: 500px;
+    margin-bottom: 20px;
+    padding: 35px;
+}
+
+ul {
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    padding: 20px;
+}
+
+header {
+    background-color: aqua;
+    height: 110px;
+}
+
+nav a {
+    padding: 10px;
+    border: 1px solid black;
+    font-size: 36px;
+    background-color: blueviolet;
+    color: aliceblue;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: aquamarine;
+    color: rgb(44, 75, 64);
+    transition: all 1s linear;
+}
+
+section {
+    width: 90%;
+    background-color: rgb(167, 212, 255);
+    margin: 20px auto 0;
+}
+
+section p {
+    font-size: 16px;
+    color: rgb(63, 63, 52);
+}
+
+iframe{
+    width: 100%;
+    height: 700px;
+}
+
+div.video-container iframe{
+    width: 530px;
+    height: 315px;
+
+
+}
+div.video-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    transform: translateX(-150%);
+}
+audio{
+    width: 100%;
+}
+
+ section:hover{
+    transition: all 1s linear;
+    background-color: mediumblue;
+}
+
+.video-section:hover div.video-container{
+    transition: all 1s linear;
+    transform: translateX(0px); 
+}
+.show-img{
+    
+    width: 320px;
+    height: 230px;   /* ширина элемента */
+    font-size: 24px; /* размер шрифта */
+    border: 1px solid black; /* Граница (размер, тип линии, центр) */
+    padding: 20px; /* внутренний отступ */
+    text-align: center; /* распологаем текст по центру */
+    color: wheat; /* изменение цвета текста */
+    margin: 0 auto 20px; /* Внешний отступ
+    (отступ вверх, отступ слева и справа, отступ вниз)
+    auto распологает элемент по центру родительского элемента */
+    background-color: brown; /* изменение фонового цвета */
+    border-radius: 10px; /* используеться для сглаживания углов */
+}
+.show-img-container>img{
+    opacity: 0;
+ /* делаем наше изображение прозрачным */
+}
+.show-img:hover~img{
+    opacity: 1;
+    transition: all 3s linear;
+}
+
+td img{
+    width: 100px;
+    height: 60px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th{
+    border: 2px solid black;
+    padding: 5px;
+}
+
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+tr:nth-child(odd){
+    background-color: white;
+}
+
+tr:hover{
+    border: #ddd;
+}
+
+td a{
+    color: black
+}
+
+table{
+    text-align: center;
+    font-size: 24px;
+}
+footer{
+    display: flex;
+    background-color: blueviolet;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.w-70{
+    width: 70%;
+}
+.w-30{
+    width: 30%;
+}
+.two-cards{
+    display: flex;
+    gap: 30px;
+}
+.card{
+    border-radius: 15px;
+    padding: 10px;
+    background-color: #e98888;
+}
+.galery-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.galery{
+    width: 90%;
+}
+.galery-item{
+    margin-top: 10px;
+    border: 1px solid #333333;
+    border-radius: 5px;
+    float: left;
+    width: 100%;
+    background: #333333;
+}
+.zoom{
+    display: block;
+    width: 85%;
+    margin: auto;
+    height: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.zoom:hover{
+    transform: scale(1.05);
+    transition: all 0.3s linear;
+}
+.desc{
+    font-size: 18px;
+    color: #0096ff;
+    padding-left: 30px;
+}
+input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid black;
+    box-sizing: border-box;
+    border-radius: 7px;
+}
